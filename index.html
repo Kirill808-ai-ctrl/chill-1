@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chill — массажный салон: классический, расслабляющий и спортивный массаж</title>
+  <meta name="description" content="Chill — массажный салон, где можно выдохнуть. Классический, релакс, стоун-терапия и спортивный массаж. Запись онлайн, скидка 20% на первый сеанс.">
+  <meta name="theme-color" content="#FAF6F1">
+  <!-- ЗАМЕНИТЬ: адрес сайта клиента (canonical, og:url, og:image, sitemap.xml, robots.txt) -->
+  <link rel="canonical" href="https://example.com/">
+  <link rel="icon" href="logo.jpg">
+  <link rel="apple-touch-icon" href="logo.jpg">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Chill">
+  <meta property="og:title" content="Chill — массажный салон">
+  <meta property="og:description" content="Место, где можно выдохнуть. Запись онлайн, скидка 20% на первый сеанс.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/logo.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <!-- ЗАМЕНИТЬ: данные для Google (телефон, адрес, город, часы работы, соцсети) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Chill",
+    "description": "Массажный салон: классический, релакс, стоун-терапия, спортивный массаж.",
+    "url": "https://example.com/",
+    "image": "https://example.com/logo.jpg",
+    "telephone": "+996555000000",
+    "priceRange": "2500–4500 KGS",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Спокойная, 12",
+      "addressLocality": "Бишкек",
+      "addressCountry": "KG"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "10:00",
+      "closes": "22:00"
+    }]
+  }
+  </script>
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#why">К содержимому</a>
+
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a href="#top" class="logo" aria-label="Chill — на главную"><img src="logo.jpg" alt="Chill Spa &amp; Massage" width="150" height="150"></a>
+      <nav class="nav-links">
+        <a href="#why">О нас</a>
+        <a href="#gallery">Атмосфера</a>
+        <a href="#services">Услуги</a>
+        <a href="#ritual">Как проходит</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <div class="nav-right">
+        <a href="#booking" class="btn btn-primary">Записаться</a>
+        <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <nav class="menu" id="menu" aria-label="Меню">
+    <a class="m-link" href="#why">О нас <span>→</span></a>
+    <a class="m-link" href="#gallery">Атмосфера <span>→</span></a>
+    <a class="m-link" href="#services">Услуги <span>→</span></a>
+    <a class="m-link" href="#ritual">Как проходит <span>→</span></a>
+    <a class="m-link" href="#reviews">Отзывы <span>→</span></a>
+    <a class="m-link" href="#faq">Вопросы <span>→</span></a>
+    <a href="#booking" class="btn btn-primary m-cta">Записаться со скидкой 20%</a>
+    <div class="menu-contacts">
+      <a href="tel:+996555000000">+996 555 000 000</a>
+      <span>Ежедневно 10:00 — 22:00</span>
+    </div>
+  </nav>
+  <div class="menu-overlay" aria-hidden="true"></div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow">Массажный салон</span>
+        <h1><span class="script">время для себя</span>Место, где можно <em>выдохнуть</em></h1>
+        <p class="lead">Отключите телефон, снимите напряжение и подарите телу час тишины. Мастера Chill бережно вернут лёгкость в спину, плечи и мысли.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary">Записаться на сеанс →</a>
+          <a href="#services" class="btn btn-ghost">Смотреть услуги</a>
+        </div>
+        <!-- ЗАМЕНИТЬ: примерные цифры на реальные данные клиента -->
+        <div class="hero-stats">
+          <div><strong><span data-count="7">7</span> лет</strong><span>заботы о вас</span></div>
+          <div><strong><span data-count="4900">4 900</span>+</strong><span>довольных гостей</span></div>
+          <div><strong><span data-count="4.9">4.9</span> ★</strong><span>средняя оценка</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="arch">
+          <span class="aura a1"></span>
+          <span class="aura a2"></span>
+          <span class="aura a3"></span>
+          <span class="ripples"><i></i><i></i><i></i><i></i></span>
+          <span class="drop-dot"></span>
+          <span class="bubble" style="left:14%;--s:12px;--t:10s;--d:0s"></span>
+          <span class="bubble" style="left:30%;--s:7px;--t:8s;--d:2.5s"></span>
+          <span class="bubble" style="left:48%;--s:16px;--t:12s;--d:5s"></span>
+          <span class="bubble" style="left:64%;--s:9px;--t:9s;--d:1.2s"></span>
+          <span class="bubble" style="left:78%;--s:13px;--t:11s;--d:6.5s"></span>
+          <span class="bubble" style="left:88%;--s:6px;--t:7s;--d:3.8s"></span>
+          <span class="arch-word">relax</span>
+        </div>
+        <div class="seal" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <defs><path id="circle" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
+            <text><textPath href="#circle" textLength="234" lengthAdjust="spacing">relax · massage · spa ·</textPath></text>
+          </svg>
+          <b>chill</b>
+        </div>
+        <div class="badge">
+          <div class="badge-pct">−20%</div>
+          <div class="badge-info">
+            <small>Первый визит</small>
+            <b>на любой массаж</b>
+            <code>CHILL20</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>расслабление</span><span>тишина</span><span>забота</span><span>тёплые масла</span><span>лёгкость</span><span>баланс</span>
+      <span>расслабление</span><span>тишина</span><span>забота</span><span>тёплые масла</span><span>лёгкость</span><span>баланс</span>
+    </div>
+  </div>
+
+  <!-- Why -->
+  <section id="why">
+    <div class="container">
+      <div class="why-head">
+        <div>
+          <span class="eyebrow">Почему Chill</span>
+          <h2>Мы создаём не процедуру, а <em>состояние</em></h2>
+        </div>
+        <p class="lead">Каждая деталь — от температуры масла до музыки в кабинете — продумана, чтобы вы забыли о спешке с первой минуты.</p>
+      </div>
+      <div class="why-grid">
+        <article class="why-card c1">
+          <div class="shape"></div>
+          <span class="num">01</span>
+          <div class="big">12<em>мастеров</em></div>
+          <h3>Опытные руки, которым доверяют</h3>
+          <p>У каждого мастера — медицинское образование и регулярное обучение новым техникам. Мы знаем, где прячется напряжение.</p>
+        </article>
+        <article class="why-card c2">
+          <div class="shape"></div>
+          <span class="num">02</span>
+          <h3>Натуральные масла</h3>
+          <p>Органические масла и ароматы, подобранные под ваше настроение.</p>
+        </article>
+        <article class="why-card c3">
+          <div class="shape"></div>
+          <span class="num">03</span>
+          <h3>Атмосфера покоя</h3>
+          <p>Приглушённый свет, тёплые полотенца и травяной чай после сеанса.</p>
+        </article>
+        <article class="why-card c4">
+          <div class="shape"></div>
+          <span class="num">04</span>
+          <h3>Чистота и уют</h3>
+          <p>Одноразовые принадлежности, свежее бельё и стерильность в каждом кабинете — чтобы вы думали только об отдыхе.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="gallery-head">
+        <div>
+          <span class="eyebrow">Атмосфера</span>
+          <h2>Почувствуйте Chill <em>ещё до визита</em></h2>
+        </div>
+        <p class="lead">Тёплые руки мастера, ароматное масло и тишина — так выглядит ваш час отдыха.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g-item">
+          <div class="photo" data-tag="Уют">
+            <img src="robe.jpg" alt="Мягкие халаты" width="360" height="640">
+          </div>
+          <figcaption><h3>Мягкие халаты</h3><span>01</span></figcaption>
+          <p>Тёплый халат и тапочки ждут вас с порога.</p>
+        </figure>
+        <figure class="g-item">
+          <div class="photo" data-tag="Релакс">
+            <img src="oil-massage.jpg" alt="Тёплое масло" width="360" height="640">
+          </div>
+          <figcaption><h3>Тёплое масло</h3><span>02</span></figcaption>
+          <p>Плавные движения растворяют напряжение спины.</p>
+        </figure>
+        <figure class="g-item">
+          <div class="photo" data-tag="Голова и шея">
+            <img src="head-neck.jpg" alt="Лёгкость в голове" width="360" height="640">
+          </div>
+          <figcaption><h3>Лёгкость в голове</h3><span>03</span></figcaption>
+          <p>Снимаем зажимы после долгого дня за экраном.</p>
+        </figure>
+        <figure class="g-item">
+          <div class="photo" data-tag="Спорт">
+            <img src="sport.jpg" alt="Восстановление" width="360" height="640">
+          </div>
+          <figcaption><h3>Восстановление</h3><span>04</span></figcaption>
+          <p>Глубокая работа с мышцами после нагрузок.</p>
+        </figure>
+        <figure class="g-item">
+          <div class="photo" data-tag="После сеанса">
+            <img src="relax-zone.jpg" alt="Зона отдыха" width="360" height="640">
+          </div>
+          <figcaption><h3>Зона отдыха</h3><span>05</span></figcaption>
+          <p>Шезлонги, тишина и травяной чай.</p>
+        </figure>
+        <figure class="g-item">
+          <div class="photo" data-tag="Эмоции">
+            <img src="happy-guest.jpg" alt="Улыбки гостей" width="360" height="640">
+          </div>
+          <figcaption><h3>Улыбки гостей</h3><span>06</span></figcaption>
+          <p>Так выглядят гости, когда уходят от нас.</p>
+        </figure>
+      </div>
+      <div class="gallery-cta">
+        <a href="#booking" class="btn btn-primary">Хочу так же →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="services-head">
+        <span class="eyebrow">Услуги и цены</span>
+        <h2>Выберите свой <em>ритуал</em></h2>
+        <p class="lead">Не знаете, что подойдёт? Мастер подберёт технику на бесплатной консультации перед сеансом.</p>
+      </div>
+      <!-- ЗАМЕНИТЬ: услуги и цены клиента (и список в форме записи ниже) -->
+      <div class="service-list">
+        <div class="service">
+          <span class="service-num">01</span>
+          <h3>Классический</h3>
+          <p>Глубокая проработка мышц спины, шеи и плеч. Снимает зажимы после рабочего дня.</p>
+          <span class="service-time">60 мин</span>
+          <span class="service-price">2 500 сом</span>
+        </div>
+        <div class="service">
+          <span class="service-num">02</span>
+          <h3>Релакс <span class="tag">хит</span></h3>
+          <p>Мягкие, плавные движения с тёплым маслом. Для тех, кто хочет просто отдохнуть.</p>
+          <span class="service-time">75 мин</span>
+          <span class="service-price">3 000 сом</span>
+        </div>
+        <div class="service">
+          <span class="service-num">03</span>
+          <h3>Стоун-терапия</h3>
+          <p>Тёплые базальтовые камни глубоко расслабляют мышцы и успокаивают нервную систему.</p>
+          <span class="service-time">90 мин</span>
+          <span class="service-price">3 800 сом</span>
+        </div>
+        <div class="service">
+          <span class="service-num">04</span>
+          <h3>Спортивный</h3>
+          <p>Интенсивная работа для восстановления после тренировок и снятия мышечной усталости.</p>
+          <span class="service-time">60 мин</span>
+          <span class="service-price">2 800 сом</span>
+        </div>
+        <div class="service">
+          <span class="service-num">05</span>
+          <h3>Для двоих</h3>
+          <p>Синхронный сеанс в общем кабинете. Отличный подарок для пары или подруг.</p>
+          <span class="service-time">60 мин</span>
+          <span class="service-price">4 500 сом</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ritual -->
+  <section id="ritual">
+    <div class="container ritual-grid">
+      <div class="ritual-visual">
+        <div class="heart-wrap">
+          <span class="ring"></span><span class="ring"></span><span class="ring"></span>
+          <svg class="heart" viewBox="0 0 24 22" aria-hidden="true">
+            <defs>
+              <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#EBC1B0"/>
+                <stop offset="1" stop-color="#C98F7B"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#hg)" d="M12 21.2s-8.6-5.3-10.8-10.6C-.3 6.8 2 2.4 6.2 2.4c2.5 0 4.4 1.4 5.8 3.3 1.4-1.9 3.3-3.3 5.8-3.3 4.2 0 6.5 4.4 5 8.2C20.6 15.9 12 21.2 12 21.2z"/>
+            <path fill="rgba(255,255,255,.45)" d="M6.4 5.2c-1.9.2-3 1.9-2.8 3.8.1.5-.6.6-.7.1-.4-2.4 1.1-4.6 3.4-4.8.5 0 .6.8.1.9z"/>
+          </svg>
+        </div>
+        <div class="breath"><i>♥</i><span>вдох · выдох</span></div>
+      </div>
+      <div>
+        <div class="ritual-text">
+          <span class="eyebrow">Как проходит визит</span>
+          <h2>Всё, что нужно — <em>просто прийти</em></h2>
+        </div>
+        <ol class="steps">
+          <li><b>1</b><div><h3>Встреча и чай</h3><p>Встречаем вас ароматным травяным чаем и помогаем настроиться.</p></div></li>
+          <li><b>2</b><div><h3>Консультация</h3><p>Мастер узнаёт о ваших пожеланиях и подбирает масло и технику.</p></div></li>
+          <li><b>3</b><div><h3>Сеанс</h3><p>Час полного расслабления в тёплом, тихом кабинете.</p></div></li>
+          <li><b>4</b><div><h3>Мягкое возвращение</h3><p>Отдых в зоне релакса, травяной чай и советы, как сохранить эффект.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer -->
+  <section>
+    <div class="container">
+      <div class="offer">
+        <span class="eyebrow">Специальное предложение</span>
+        <h2>Первый сеанс — <em>со скидкой 20%</em></h2>
+        <p class="lead">Попробуйте любой массаж по приятной цене и почувствуйте, почему гости возвращаются к нам снова и снова.</p>
+        <div class="offer-actions">
+          <a href="#booking" class="btn btn-primary">Забронировать время →</a>
+          <span class="offer-code">ПРОМОКОД: CHILL20</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews">
+    <div class="container">
+      <div class="reviews-head">
+        <span class="eyebrow">Отзывы гостей</span>
+        <h2>Нам доверяют <em>своё время</em></h2>
+      </div>
+      <!-- ЗАМЕНИТЬ: примерные отзывы на настоящие отзывы гостей -->
+      <div class="reviews-grid">
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <blockquote>Пришла с больной шеей после недели за ноутбуком — ушла как новая. Атмосфера просто волшебная.</blockquote>
+          <div class="reviewer"><div class="avatar">А</div><div><b>Айгерим</b><small>Релакс-массаж</small></div></div>
+        </article>
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <blockquote>Хожу после тренировок каждые две недели. Мастер всегда точно знает, где нужно поработать.</blockquote>
+          <div class="reviewer"><div class="avatar">Т</div><div><b>Тимур</b><small>Спортивный массаж</small></div></div>
+        </article>
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <blockquote>Подарила мужу сеанс для двоих на годовщину. Лучший подарок — теперь это наша традиция.</blockquote>
+          <div class="reviewer"><div class="avatar">М</div><div><b>Мадина</b><small>Массаж для двоих</small></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container faq-grid">
+      <div class="faq-intro">
+        <span class="eyebrow">Вопросы</span>
+        <h2>Ответим <em>заранее</em></h2>
+        <p class="lead">Не нашли ответ? Напишите нам — ответим в течение 15 минут.</p>
+      </div>
+      <div>
+        <details open class="is-open">
+          <summary>Нужно ли что-то брать с собой?</summary>
+          <p>Нет. Мы предоставим халат, тапочки, одноразовое бельё и полотенца. Просто приходите за 10 минут до начала.</p>
+        </details>
+        <details>
+          <summary>Есть ли противопоказания?</summary>
+          <p>Массаж не рекомендуется при высокой температуре, острых воспалениях и некоторых хронических заболеваниях. Если сомневаетесь — проконсультируйтесь с врачом или спросите мастера.</p>
+        </details>
+        <details>
+          <summary>Можно ли выбрать мастера?</summary>
+          <p>Конечно. Укажите пожелание при записи — мужчина или женщина, или конкретный мастер.</p>
+        </details>
+        <details>
+          <summary>Есть ли подарочные сертификаты?</summary>
+          <p>Да, на любую услугу или сумму. Сертификат оформим красиво в конверте или пришлём в электронном виде.</p>
+        </details>
+        <details>
+          <summary>Как отменить или перенести запись?</summary>
+          <p>Просто позвоните или напишите нам не позднее чем за 3 часа до сеанса — перенесём без доплат.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section id="booking" class="booking">
+    <div class="container booking-grid">
+      <div class="booking-intro">
+        <span class="eyebrow" style="color: rgba(239,230,218,.6)">Запись</span>
+        <h2>Подарите себе час <em>тишины</em></h2>
+        <p class="lead">Оставьте заявку — администратор перезвонит, подберёт удобное время и мастера.</p>
+        <!-- ЗАМЕНИТЬ: контакты клиента (также в меню, нижней панели, JSON-LD и script.js) -->
+        <ul class="contact-list">
+          <li><small>Телефон</small><a href="tel:+996555000000">+996 555 000 000</a></li>
+          <li><small>Instagram</small><a href="https://instagram.com/" target="_blank" rel="noopener">@chill.massage</a></li>
+          <li><small>Адрес</small><span>ул. Спокойная, 12</span></li>
+          <li><small>Часы работы</small><span>Ежедневно 10:00 — 22:00</span></li>
+        </ul>
+      </div>
+      <form id="lead-form" action="#" method="post" novalidate>
+        <div>
+          <label for="name">Ваше имя</label>
+          <input id="name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="name" required>
+        </div>
+        <div>
+          <label for="phone">Телефон</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="+996 555 000 000" autocomplete="tel" required>
+        </div>
+        <div class="form-row">
+          <div>
+            <label for="service">Услуга</label>
+            <select id="service" name="service">
+              <option>Классический</option>
+              <option selected>Релакс</option>
+              <option>Стоун-терапия</option>
+              <option>Спортивный</option>
+              <option>Для двоих</option>
+              <option>Помогите выбрать</option>
+            </select>
+          </div>
+          <div>
+            <label for="date">Желаемая дата</label>
+            <input id="date" name="date" type="date">
+          </div>
+        </div>
+        <div>
+          <label for="msg">Пожелания</label>
+          <textarea id="msg" name="msg" placeholder="Например: болит поясница, хочу мастера-женщину"></textarea>
+        </div>
+        <button type="submit" class="btn">Записаться со скидкой 20%</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>. Заявка откроется в WhatsApp — останется нажать «Отправить».</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <a href="#top" class="logo" aria-label="Chill — на главную"><img src="logo.jpg" alt="Chill Spa &amp; Massage" width="150" height="150"></a>
+      <nav>
+        <a href="#services">Услуги</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#booking">Контакты</a>
+        <a href="privacy.html">Конфиденциальность</a>
+      </nav>
+      <p>© 2026 Chill. Время для себя.</p>
+    </div>
+  </footer>
+
+  <!-- Нижняя панель (только на телефоне) -->
+  <div class="mbar">
+    <a href="tel:+996555000000" class="btn btn-ghost">Позвонить</a>
+    <a href="#booking" class="btn btn-primary">Записаться</a>
+  </div>
+
+  <!-- ЗАМЕНИТЬ/ВКЛЮЧИТЬ: код аналитики клиента (Google Analytics / Яндекс.Метрика) вставляется сюда -->
+</body>
+</html>
